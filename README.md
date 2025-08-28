@@ -5,7 +5,7 @@ This project showcases a simple Node.js web application deployed on AWS EC2 usin
 Purpose: Built to demonstrate DevOps competencies for an intern role, including Linux, AWS, and Docker.
 Application: A lightweight Node.js Express app serving a webpage.
 Deployment: Hosted on an AWS EC2 instance (Ubuntu) using Docker.
-Live Demo: Accessible at http://YOUR_EC2_PUBLIC_IP (replace with your EC2 public IP).
+Live Demo: Accessible at http://13.233.183.141/ (replace with your EC2 public IP).
 Optional CI/CD: Automated Docker image builds and pushes via GitHub Actions.
 
 🛠 Technologies Used
@@ -37,7 +37,7 @@ Docker Hub account (optional, for CI/CD)
 
 1. Local Setup
 
-Clone the repository:git clone https://github.com/YOUR_USERNAME/devops-intern-project.git
+Clone the repository:git clone https://github.com/mayankahuja-pro/devops-intern-project.git
 cd devops-intern-project
 
 
@@ -63,7 +63,7 @@ Download the key pair (e.g., my-key.pem).
 
 
 SSH into EC2:chmod 400 my-key.pem
-ssh -i my-key.pem ubuntu@YOUR_EC2_PUBLIC_IP
+ssh -i my-key.pem ubuntu@13.233.183.141
 
 
 Install Docker:sudo apt update
